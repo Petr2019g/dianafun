@@ -38,14 +38,16 @@ p{
 }
 .container{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  gap:5px;
-  /* position: relative; */
-  margin: 0 0 0 20px;
-  flex-wrap: wrap;
-  /* top:0px;
-  left: 0px; */
+  /* gap:5px; */
+  position: relative;
+  width:1000px;
+  /* margin: 0 0 0 20px; */
+  margin:auto;
+  /* flex-wrap: wrap; */
+  top:0px;
+  left: -30px;
 }
 
 .header{
