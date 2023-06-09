@@ -42,8 +42,9 @@ p{
   align-items: center;
   gap:5px;
   position: relative;
-  top:0px;
-  left: 0px;
+  margin: auto;
+  /* top:0px;
+  left: 0px; */
 }
 
 .header{
