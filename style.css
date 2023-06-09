@@ -41,8 +41,9 @@ p{
   justify-content: center;
   align-items: center;
   gap:5px;
-  position: relative;
-  margin: auto;
+  /* position: relative; */
+  margin: 0 0 0 20px;
+  flex-wrap: wrap;
   /* top:0px;
   left: 0px; */
 }
