@@ -595,15 +595,16 @@ color: black;
 
   .container{
     /* display: none; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap:5px; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:-300px; 
     /* position: relative; */
-    width:500px;
+    width:390px;
+    height: 1600px;
     /* margin: 0 0 0 20px; */
-    margin:auto;
-    /* flex-wrap: wrap; */
+    margin:0 auto 0 auto;
+    flex-wrap: wrap;
     top:0px;
     left: 0px;
     /* background-color: blue; */
@@ -613,7 +614,7 @@ color: black;
     /* display:none; */
     display:flex;
     align-items: center;
-    width: 400px;
+    width: 390px;
     height: 100px;
     background-color: #ffe1d8;
     border-radius: 50px;
@@ -670,4 +671,92 @@ color: black;
     content: "г. Новосибирск";
     font-size: 10px;
   }
+
+  /* шапка закончилась */
+
+
+
+
+  .left{
+    /* display: none; */
+    position: relative;
+    left: 0px;
+    width: 350px;
+    height: 750px;
+    margin:0px 20px 20px 0px;
+  }
+
+  .right{
+    position: relative;
+    top:0px;
+    width: 365px;
+    height: 752px;
+    background-color: #ffe1d8;
+    box-shadow: 3px 3px 10px 3px #c2a8c7;
+    border-radius: 10px;
+    font-family: "Mont-regular";
+    color:#000000;
+    border: 1px solid #ffffff;
+    /* padding: 15px; */
+  }
+
+  .short__description{
+    /* text-indent:40px; */
+    /* text-align:justify; */
+    /* font-family: "Mont-bold"; */
+    /* font-size: 20px; */
+    position: relative;
+    /* padding: 15px; */
+    top:4px;
+    left: 0px;
+    width: 365px;
+    height: 212px;
+    background-color: #ffe1d8;
+    margin:auto ;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 10px 3px #c2a8c7;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+
+  .long__description{
+    text-align: justify;
+    text-indent: 40px;
+    font-family: "Mont-bold";
+    font-size: 17px;
+    /* line-height: 25px; */
+    padding: 15px;
+    position:relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .slider{
+    width: 364px;
+    height: 250px;
+    background-color: #ffe1d8;
+    margin: auto;
+    box-shadow: 3px 3px 10px 3px #c2a8c7;
+    border-radius: 10px;
+    background-size: cover;
+    border: 1px solid #ffffff;
+  }
+  
+  .footer{
+  
+    width: 365px;
+    height: 210px;
+    background-color: #ffe1d8;
+    margin: 15px 0px 15px 0px;
+    box-shadow: 3px 3px 10px 3px #c2a8c7;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Mont-regular";
+    font-size: 15px;
+    border: 1px solid #ffffff;
+  }
+
+.right__skills{
+  font-size:17px;
 }
+  }
