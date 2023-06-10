@@ -257,11 +257,13 @@ img:nth-child(7) {
   /* margin-right: 15px; */
 }
 
-.contact__link1{
+.contact__link{
   display: block;
 /* width: 20px; */
 /* height: 23px; */
 /* background-color: #fff; */
+text-decoration: none;
+color: black;
 }
 
 .contact__img1{
@@ -542,13 +544,24 @@ img:nth-child(7) {
 }
 
 .reviews__img{
+  display: inline;
   height: 25px;
   width: 25px;
   position: relative;
   top: 5px;
 }
 .reviews{
+  display: block;
   font-family: "Mont-regular";
   margin-top: 10px;
+  text-decoration: none;
+  color:black;
 
+}
+
+.reviews__link{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  margin-left: 10px;
 }
