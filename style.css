@@ -257,6 +257,11 @@ img:nth-child(7) {
   /* margin-right: 15px; */
 }
 
+.contact__link1{
+/* width: 5px; */
+/* height: 5px; */
+}
+
 .contact__img1{
   width: 25px;
   height: 25px;
@@ -310,7 +315,7 @@ img:nth-child(7) {
   align-items: start;
   text-align: center;
   position: relative;
-  top:-5px;
+  top:0px;
   left:-9px;
 }
 
@@ -321,6 +326,7 @@ img:nth-child(7) {
   position: relative;
   top:-3px;
   left:8px;
+  /* background-color: blue; */
 }
 
 .contact5{
