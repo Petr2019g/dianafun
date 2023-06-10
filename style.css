@@ -348,7 +348,7 @@ img:nth-child(7) {
   margin: 0 10px 10px 10px;
   position: relative;
   top:-3px;
-  left:8px;
+  left:7px;
 }
 
 .contact6{
@@ -538,5 +538,17 @@ img:nth-child(7) {
 
 .the__end{
   font-family: "Mont-bold";
-  margin-top: 15px;
+  margin-top: 5px;
+}
+
+.reviews__img{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 5px;
+}
+.reviews{
+  font-family: "Mont-regular";
+  margin-top: 10px;
+
 }
