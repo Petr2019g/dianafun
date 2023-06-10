@@ -42,13 +42,13 @@ p{
   align-items: center;
   /* gap:5px; */
   /* position: relative; */
-  width:1200px;
+  width:1150px;
   /* margin: 0 0 0 20px; */
   margin:auto;
   /* flex-wrap: wrap; */
   top:0px;
   left: 0px;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .header{
@@ -258,11 +258,14 @@ img:nth-child(7) {
 }
 
 .contact__link1{
-/* width: 5px; */
-/* height: 5px; */
+  display: block;
+/* width: 20px; */
+/* height: 23px; */
+/* background-color: #fff; */
 }
 
 .contact__img1{
+  display: block;
   width: 25px;
   height: 25px;
   margin: 0 50px 10px 10px;
