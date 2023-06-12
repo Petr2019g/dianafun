@@ -209,7 +209,7 @@ p{
 .photo_slider_css {
   position: absolute;
   left:0px;
-  animation: round 32s infinite;
+  animation: round 52s infinite;
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -218,15 +218,15 @@ p{
 }
 
 @keyframes round {
-  15% {
+  10% {
     opacity: 1;
   }
-  25% {
+  20% {
     opacity: 0;
   }
-
-
 }
+
+
 img:nth-child(1) {
   animation-delay: 0s;
 }
