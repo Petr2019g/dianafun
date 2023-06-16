@@ -39,11 +39,20 @@ p{
   text-align: center;
 }
 
+.upper__block{
+  width: 1150px;
+  margin: auto;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
 
 .upper{
+  position: relative;
   font-family: "Mont-regular";
   height: 170px;
-  width: 1010px;  box-shadow: 3px 3px 10px 3px #c2a8c7;
+  width: 1010px ;
+  box-shadow: 3px 3px 10px 3px #c2a8c7;
   border: 1px solid #ffffff;
   background-color: #ffe1d8;
   border-radius: 10px;
@@ -629,9 +638,17 @@ color: black;
     text-align: center;
   }
 
+  .upper__block{
+    width: 310px;
+    margin: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
   .upper{
-    height: 330px;
-    width: 280px;  box-shadow: 3px 3px 10px 3px #c2a8c7;
+    height: 325px;
+    width: 276px;  box-shadow: 3px 3px 10px 3px #c2a8c7;
     border: 1px solid #ffffff;
     background-color: #ffe1d8;
     border-radius: 10px;
