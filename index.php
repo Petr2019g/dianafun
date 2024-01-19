@@ -141,5 +141,8 @@
       </div>
       <!-- <div class="img"></div> -->
   </main>
+  <?php
+   echo "приветствие! php работает!"; 
+  ?>
 </body>
 </html>
